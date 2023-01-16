@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: 0.2s linear;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    list-style: none;
+
+}
+
+html {
+     font-size:62.5%; 
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// -------------------------media screen---------------------------------
+
+
+
+@media  only screen and (width: 600px) {
+
+  .navbar{
+
+    width: 100%;
+  }
+
+  .images{
+    width: 100%;
+  }
+  .images {
+
+    background-position: left;
+  }
+}
