@@ -707,7 +707,7 @@ margin: 2.5rem;
   /* width: 100vw; */
   background-repeat: no-repeat;
   /* background-image: url('/1IMAGES/contact-mod.jpg'); */
-  background-image: url(''../images/conbg.jpg'');
+  background-image: url('../images/conbg.jpg');
   background-position:  center;
   background-size: cover;
   
