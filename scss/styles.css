@@ -48,7 +48,7 @@ padding: 2rem 9%;
   width: 100vw;
   height: 100vh;
   min-height: 100vh;
-  background-image: url('../1IMAGES/bg.png');
+  background-image: url('../images/bg.jpg');
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -707,7 +707,7 @@ margin: 2.5rem;
   /* width: 100vw; */
   background-repeat: no-repeat;
   /* background-image: url('/1IMAGES/contact-mod.jpg'); */
-  background-image: url('images/conbg.jpg');
+  background-image: url(''../images/conbg.jpg'');
   background-position:  center;
   background-size: cover;
   
