@@ -210,13 +210,12 @@ color: #ff004f;
   color: #ffffff;
 font-weight:bolder;
 font-size: 2.2rem;
-padding: 1rem;
+padding: 2rem;
 border-radius: 1rem;
 text-shadow: none;
 letter-spacing: 5px;
 font-family:  'popins' sans-serif;
-
-
+  text-shadow: 1px 1px 5px #000000; 
 }
 
 #whats{
