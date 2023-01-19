@@ -190,6 +190,48 @@ color: #ff004f;
 
 }
 
+}
+
+
+ #conbtn{
+  background-color: #ff004f;
+  color: #ffffff;
+  padding: 2rem;
+  font-size: 2.2rem;
+  
+}
+
+
+
+
+.content .homebtn{
+
+  background-color: #ff004f; 
+  color: #ffffff;
+font-weight:bolder;
+font-size: 2.2rem;
+padding: 1rem;
+border-radius: 1rem;
+text-shadow: none;
+letter-spacing: 5px;
+font-family:  'popins' sans-serif;
+
+
+}
+
+#whats{
+
+  position: fixed;
+  right: 1rem;
+  bottom: 2rem;
+  color: rgb(24, 191, 57);
+  padding: 1rem;
+  text-shadow: none;
+  
+  
+
+}
+
 
 
 /* =====================project=----------------- */
@@ -810,10 +852,11 @@ margin: 2.5rem;
     
   }
   .content, .content span{
-    font-size: 3.5rem;
-    line-height: 6.5rem;
+    font-size: 6.5rem;
+    line-height: 7.5rem;
         font-family: 'Acme', sans-serif;
-    /* letter-spacing: 1.2rem ; */
+   
+      letter-spacing: .5rem;
   
   }
 
