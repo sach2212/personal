@@ -289,7 +289,7 @@ font-family:  'popins' sans-serif;
   text-align: center;
   font-size: 3.5rem;
   /* margin-bottom:  rem; */
-  color: #574848;
+ color: #000000;
   cursor: pointer;
   margin-top: 2rem;
  
@@ -297,19 +297,28 @@ font-family:  'popins' sans-serif;
 
 }
 
-.ab-content p{
-  font-size: 2.5rem;
-  padding-left: 4rem;
-  margin-top: 4em;
-  color: rgb(91, 82, 82);
-  line-height: 3.5rem;
-  /* font-weight: bolder; */
-  letter-spacing: .5rem;
+.ab-content p i{
+
+  color: #000000;
 }
 
 
 
-
+.ab-content p{
+  font-size: 2.2rem;
+  /* text-transform: lowercase; */
+    text-transform: none;
+    /* text-indent: 1rem; */
+  padding-left: 4rem;
+  padding-top: 1rem;
+  text-align: left;
+ 
+  color: #574848;
+  font-weight: bolder;
+  /* font-weight: bolder; */
+  font-family: 'Poppins', sans-serif;
+  line-height: 4.1rem;
+}
 
 
 
@@ -809,6 +818,51 @@ margin: 2.5rem;
 
 @media (max-width: 560px){
 
+  
+    ------------abiout------------
+
+
+  
+.ab-content h3{
+
+  text-align: center;
+  font-size: 3.5rem;
+  /* margin-bottom:  rem; */
+ color: #000000;
+  cursor: pointer;
+  margin-top: 2rem;
+ 
+
+
+}
+
+.ab-content p i{
+
+  color: #000000;
+}
+
+.ab-content p{
+  font-size: 17px;
+  /* text-transform: lowercase; */
+    text-transform: none;
+    /* text-indent: 1rem; */
+  padding-left: 4rem;
+  padding-top: 4rem;
+ 
+  color: #574848;
+  font-weight: bolder;
+  font-family: 'popins';
+  /* font-weight: bolder; */
+  font-family: 'Poppins', sans-serif;
+  line-height: 4.1rem;
+}
+
+
+
+  
+  
+  
+  
   .form form input, .form form textarea{
     width: 45rem;
   
