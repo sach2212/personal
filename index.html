@@ -1,692 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>complete responsive fitness and gym website design</title>
+    <title>Document</title>
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css" integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <!-- -------font awsome-------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./scss/styles.css">
+
+    <!-- aos lib -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
+
 <body>
+    <!-- ----------------nav----------------------- -->
 
-    
-<!-- header section starts      -->
+    <header class="header" id="home" >
+        <div class="container">
+            <div class="navbar"data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1300">
 
-<!-- <strong class="upper">
-    <div class="upper1">
- 
-            
-                <a href=""><p> <i class="fab fa-facebook-f"></i>   </p></a>
+                <div class="icons">
+                   
+                  <h1>web<span>serv.</webspan></h1>
+
+                </div>
+
+                <div class="nav-link" >
+                    <a href="#home">home</a>
+                    <a href="#project">projects</a>
+                    <a href="#about">about</a>
+                    <a href="#contact">contact</a>
+                    <i class="fa fa-xmark" id="close"></i>
+                </div>
+                <i class="fa fa-bars" id="bars"></i>
                 
-                <a href=""><p> <i class="fab fa-instagram"></i>   </p></a>
-                <a href=""><p> <i class="fa-solid fa-phone"></i> </p></a>
-                <a href=""><p> <i class="fab fa-whatsapp"></i>  </p></a>
-         </div>
-</strong> -->
-<header class="header">
-
+            </div> 
     
+        </div>
 
-    <a href="#" class="logo">  <img src="images/kvlogo-removebg-preview.png" alt=""> </a>
+        
 
-    <div id="menu-btn" class="fa fa-bars"></div>
-    <!-- <a href="#"  id="menu-btn"> <i class="fa fa-bars"></i></a> -->
-
-    <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#features">gallery</a>
-        <a href="#features">membership</a>
-        <a href="#features">contact</a>
-     
-        <a href="contact.html " target="_blank" id="joinus" class="joinus">join now</a>
-       
-    </nav>
- 
-
-</header>
-
-    <!-- ---------------------home-------------------------- -->
- 
-      <div class="home-container">
-
-    
-
-        <div class="home-details">
+        <div class="code-img" id="home">
 
 
-            <div class="h-welcome">
-                <h2>welcome to adiansh gym</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor et obcaecati reprehenderit, non in quaerat?
-                </p>
-         </div>
 
-
-            <div class="h-welcome2">
-
-                <div class="home-contact">
- 
-                     <h2>Get 20% Off or get a free  trial <br> membership for 7 days</h2>
-                  
- 
-                     <form action="">
-                         <input required type="text"  name="name"   placeholder="name" class=" ">
-    
-                         <input required type="email"  name="email"   placeholder=" email " class=" ">
-    
-                         <input required type="number"  name="number"   placeholder=" number " class=" ">
-                  
-                         <a href="contact.html " target="_blank" id="joinus" class="btn">enroll now</a>
-
-                        </form>
-       
-                </div>
-            </div>
-
-
-          
+            <div  class="content" 
+            >
             
-        </div>
-    
-</div>
-  
-<!-- home section ends -->
-
-
-<section class="mission">
-    <div class="m-content">
-
-        <div class="m-content1">
-
-            <h2>our mission</h2>
-            <p>We are dedicated to providing exceptional facilities, equipment, and services <br> that meet the highest standards of quality and effectiveness. We continuously <br> invest in upgrading our resources to ensure our members have <br> access to the best fitness experience.
-            </p>
-        </div>
-    </div>
-
-</section>
-        <!-- -----------------new about sec------------------------------- -->
-
-       
-
-
- 
- 
-   <section class="about">
-
-        <div class="ab-content">
-
-            <div class="ab-cont1">
-
-                    <h1>about us</h1>
-                    <p>Welcome to [Gym Name], a premier fitness facility dedicated to helping individuals of all fitness levels achieve their goals and lead a healthier lifestyle. 
-                        With a passion for fitness and a commitment to excellence,
-                         we have established ourselves as a trusted destination
-                          for those seeking a positive and transformative gym
-                           experience.
-
-                    </p>
-                    <p>Our team of dedicated and knowledgeable fitness
-                         professionals is here to guide and support you every
-                          step of the way. From our certified personal trainers
-                           who provide expert guidance and create personalized 
-                           workout plans, to our friendly staff who are always
-                            ready to assist you, we strive to create an 
-                            environment where you feel motivated, inspired, 
-                            and valued.
-
-                    </p>
-            </div>
-
-
-            <div class="ab-cont2">
-
-               <div class="image">
                 
-               </div>
-            </div>
-        </div>
-       
-
-        </section>
- <!-- -----------------new about end------------------------------- -->
-
- <!-- -----------------new facilities s------------------------------- -->
-
-
-        <section class="facilities">
-
-            <h2>facilities</h2>
-            <div class="fa-cont">
-                <div class="fa-cont1">
-
-                        <div class="fa-data">
-                            <h3>steam </h3>
-                            <h3>shower</h3>
-                            <h3>cardio</h3>
-                        </div>  
-                        
-                        <div class="fa-data">
-                            <h3>zumba</h3>
-                            <h3>yoga</h3>
-                            <h3>cross-fit</h3>
-                        </div>  
-                        
-                        <div class="fa-data">
-                            <h3>nutrionist</h3>
-                            <h3>personal training</h3>
-                            <h3>spa+masage</h3>
-                        </div>
-
-                </div>
-
-                <div class="fa-cont2">
-                        
-                    <div class="personalT">
-                            <h4>personal training</h4>
-                            <p>Our certified personal trainers are available to provide one-on-one guidance, personalized workout programs, and expert advice to help you achieve your specific fitness goals. They will work closely with you to maximize your results and provide ongoing support and motivation.
-
-                            </p>
-                        </div>
-                        
-                        <div class="personalT">
-                            <h4>nutrionist</h4>
-                            <p>Our certified personal trainers are available to provide one-on-one guidance, personalized workout programs, and expert advice to help you achieve your specific fitness goals. They will work closely with you to maximize your results and provide ongoing support and motivation.
-
-                            </p>
-                        </div>
-                </div>
-            </div>
-
-        </section>
-
-
- <!-- -----------------new faciltites end------------------------------- -->
-
-
-
-
-        <!-- /* ---------------------pricing   ---------- */ -->
-
-        <h1 class="member"> membership</h1>
-
-        <section class="pricing" id="pricing">
-             
-            
-            <div class="information">
-               
-                <h3>Get 20% Off + 3 Monthts Extra
-On Your First Membership
-</h3>
-                <p class="em">We strive to offer competitive pricing options that align with our high-quality facilities, professional staff, and comprehensive range of services
-
-                </p>
-                <p> <i class="fas fa-check"></i> personal training </p>
-                <p> <i class="fas fa-check"></i> swimming </p>
-                <p> <i class="fas fa-check"></i> diet plans </p>
-                <p> <i class="fas fa-check"></i> overall results </p>
-                <!-- <p> <i class="fas fa-check"></i> personal training </p>
-                <p> <i class="fas fa-check"></i> spa + massage</p> -->
-                <a href="#" class="btn">all pricing</a>
-            </div>
-        
-            <div class="plan basic">
-                <h3>basic plan</h3>
-                <div class="price"><span>$</span>30<span>/mo</span></div>
-               <div class="list">
-                <p> <i class="fas fa-check"></i> personal training </p>
-                <p> <i class="fas fa-check"></i> cardio exercise </p>
-                <p> <i class="fas fa-check"></i> weight lifting </p>
-                <p> <i class="fas fa-check"></i> diet plans </p>
-                <p> <i class="fas fa-check"></i> overall results </p>
-               </div>
-               <a href="#" class="btn">get started</a>
-            </div>
-        
-            <div class="plan">
-                <h3>premium plan</h3>
-                <div class="price"><span>$</span>90<span>/mo</span></div>
-               <div class="list">
-                <p> <i class="fas fa-check"></i> personal training </p>
-                <p> <i class="fas fa-check"></i> cardio exercise </p>
-                <p> <i class="fas fa-check"></i> weight lifting </p>
-                <p> <i class="fas fa-check"></i> diet plans </p>
-                <p> <i class="fas fa-check"></i> overall results </p>
-               </div>
-               <a href="#" class="btn">get started</a>
-            </div>
-        
-        </section>
-
-
-      
-        <!-- /* ---------------------pricing ---------- */ -->
-        
-
-        <!-- ----------------scedule-------- starts -->
-
-
-        <section class="schedule">
-
-            <div class="scheduleDATA">
-
-            <div class="scheduleTIME">
-
-                    <h3>gym hours</h3>
-                <p>mon:&nbsp; <span>6am – 11pm</span></p>
-                <p>tue:&nbsp; <span>&nbsp;6am – 11pm</span></p>
-                <p>wed: &nbsp;<span>6am – 11pm</span></p>
-                <p>thu: &nbsp;<span>&nbsp;6am – 11pm</span></p>
-                <p>fri: &nbsp;<span>&nbsp; 6am – 11pm</span></p>
-                <p>sat: &nbsp;<span>&nbsp;6am – 11pm</span></p>
-                <p>sun: &nbsp;<span>10am – 07pm</span></p>
-            </div>
-
-            <div class="scedulemap">
-
-                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d120570.20465977481!2d72.76830114489975!3d19.20311090250111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3be7b79aa48af03f%3A0x2774dc07ae67d029!2sSHOP%20NO%209%2C%20ABHINAV%20APARTMENT%20CHS%20LTD%2C%20CHHATRAPATI%2C%20Shivaji%20Rd%2C%20opp.%20Atul%20Tower%2C%20Tribhuvan%20Chawl%2C%20Hemu%20Colony%2C%20Bhagat%20Colony%2C%20Kandivali%20West%2C%20Mumbai%2C%20Maharashtra%20400067!3m2!1d19.203124199999998!2d72.83834159999999!5e0!3m2!1sen!2sin!4v1676971811665!5m2!1sen!2sin" 
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    
-    
-  
-
-            </div>
-
-        </section>
-
-
-
-
-
-        <!-- ----------------scedule-------- ends -->
-
-
-
-
-
-<!-- gallery section starts  -->
-<!-- 
-<section class="features" id="features">
-
-    <h1 class="heading"> <span>gallery</span> </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <div class="image">
-                <img src="images/kv1.jpg" alt="">
-            </div>
-            <div class="content">
-                <img src="images/kv2.jpg" alt="">
- 
-            </div>
-        </div>
-
-        <div class="box second">
-            <div class="image">
-                <img src="images/kv3.jpg" alt="">
-            </div>
-            <div class="content">
-                <img src="images/kv4.jpg" alt="">
- 
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/kv5.jpg" alt="">
-            </div>
-            <div class="content">
-                <img src="images/kv6.png" alt="">
-        
-            </div>
-        </div>
-
-    </div>
-
-</section> -->
-
-<!-- galleru section ends -->
-
-
-<!-- trainers section starts  -->
-<!-- 
-<section class="trainers" id="trainers">
-
-    <h1 class="heading"> <span>expert trainers</span> </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <img src="images/trainer-1.jpg" alt="">
-            <div class="content">
-                <span>expert trainer</span>
-                <h3>john deo</h3>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-pinterest"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/trainer-2.jpg" alt="">
-            <div class="content">
-                <span>expert trainer</span>
-                <h3>john deo</h3>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-pinterest"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/trainer-3.jpg" alt="">
-            <div class="content">
-                <span>expert trainer</span>
-                <h3>john deo</h3>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-pinterest"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/trainer-4.jpg" alt="">
-            <div class="content">
-                <span>expert trainer</span>
-                <h3>john deo</h3>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-pinterest"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</section> -->
-
-<!-- trainers section ends -->
-
-<!-- blogs section str -->
-<!-- <section class="blogs" id="blogs">
-
-    <h1 class="heading"> <span>daily posts</span> </h1>
-
-    <div class="swiper blogs-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide slide">
-                <div class="image">
-                    <img src="images/blog-1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">21st may, 2021</a> </div>
-                    <h3>fitness is not about being better than someone else</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, tenetur?</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-            
-            <div class="swiper-slide slide">
-                <div class="image">
-                    <img src="images/blog-2.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">21st may, 2021</a> </div>
-                    <h3>fitness is not about being better than someone else</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, tenetur?</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <div class="image">
-                    <img src="images/blog-3.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">21st may, 2021</a> </div>
-                    <h3>fitness is not about being better than someone else</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, tenetur?</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <div class="image">
-                    <img src="images/blog-4.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">21st may, 2021</a> </div>
-                    <h3>fitness is not about being better than someone else</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, tenetur?</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <div class="image">
-                    <img src="images/blog-5.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">21st may, 2021</a> </div>
-                    <h3>fitness is not about being better than someone else</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, tenetur?</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="swiper-pagination"></div>
-
-    </div>
-
-</section> -->
-
-<!-- blogs section ends -->
-
-<!-- banner section starts  -->
-
-<!-- <section class="banner">
-
-    <span>join us now</span>
-    <h3>get upto 20% discount</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat architecto nesciunt aut sapiente quis inventore quam vitae quod illum incidunt.</p>
-    <a href="#" class="btn">get discount</a>
-
-</section> -->
-
-<!-- review section starts  -->
-
-<section class="review">
-
-    <div class="information">
-        <h3>what our clients says</h3>
-        
-     <!-- <a href="contact.html" target="_blank" class="btn">review us on google <img src="images/google-logo-icon.png" alt="" width="40px"></a> -->
-    </div>
-
-    <div class="swiper review-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide slide">
+                <span data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-delay="1600">   manage</span>
                 
-
-                <div class="tryimage">
-                    <img src="images/rev1 (1).png" alt="">
-                </div>
-              
+                <p data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-delay="2100"> your <span class="us">business</span></p>
+                <p data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-delay="2500">with <span>us</span></p>
+                
             </div>
-
-              <div class="swiper-slide slide">
-                <div class="tryimage">
- 
-                    <img src="images/rev1 (1).png" alt="">
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <div class="tryimage">
-                    <img src="images/rev2.png" alt="">
-                </div>
-            </div>  
-
-            <div class="swiper-slide slide">
-             <div class="tryimage">
-                    <img src="images/rev2.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <div class="swiper-pagination"></div>
-    </div>
-
-    <div class="reviewsgoogle">
-
-    <a href="contact.html" target="_blank" class="btn">schedule a visit </a>
     
-    <a href="contact.html" target="_blank" class="google">
-        <p>review us on google</p>
-        <img src="images/google.png" alt="" width="25px"></a>
+     </div>
+
+    </header>
+
+    
+    <!-- -------------------home------------------------- -->
+    <section id='project' data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+
+        <div class="container" >
+            <h1 class='subtitle'>recent <span>projects</span> </h1>
+
+            <div class="work-list">
+
+
+
+                <div class="work" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" data-aos-delay="200">
+                    <img src="images/trek1.jpg" alt="">
+
+                    <div class="layer">
+                        <h3 class='minitext'>adventure site</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.<br>
+                            Lorem ipsum dolor sit amet.</p>
+                        <a href="https://sach2212.github.io/sach/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" data-aos-delay="200">
+                
+                    <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video> 
+                    <div class="layer">
+                        <h3 class='minitext'>trekking site APP</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.<br>
+                            Lorem ipsum dolor sit amet.</p>
+                        <a href="https://sach2212.github.io/bussness/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="work" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" data-aos-delay="200">
+                    <img src="file:///C:/Users/HP/OneDrive/Documents/GitHub/pp/images/pc1.png " alt="">
+                    <!-- <img src="images/trek1.jpg" alt=""> -->
+
+                    <div class="layer">
+                        <h3 class='minitext'>portfolio site</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.<br>
+                            Lorem ipsum dolor sit amet.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <a href="#" id="btn"> See More</a>
+        </div>
+    </section>
+
    
-    </div>
-</section>
 
-<!-- review section ends -->
+    <section class="about" id="about" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+        <h1> about us </h1>
+    <div class="abbox">
+        
+        <div class="box-cont" >
 
-<!-- banner section ends -->
-<!-- blogs section starts  -->
+            <div class="image">
+                <img src="images/1.jpg" alt="">
+            </div>
+            <div class="ab-content">
+                <h3> why us? </h3>
+                <p>
+                    Are you in need of a website that is not only visually stunning, but also functional and user-friendly? Look no further! Our team of web design experts specializes in creating custom websites that are tailored to meet the unique needs of your business.
 
-<!-- footer section starts  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="footer">
-
-
-<!-- constact section starts  -->
-
-
-
-
-
-<!-- constact section starts  -->
-
-
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3>quick links</h3>
-            <a class="links" href="#home">home</a>
-            <a class="links" href="#about">about</a>
-            <a class="links" href="#features">gallery</a>
-           
-           
-            <a class="links" href="#blogs">join us</a>
+                    
+                    
+                    
+                </p>
+            </div>
         </div>
+    </div>
+    </section>
 
-        <!-- <div class="box">
-            <h3> social media</h3>
-            <div class="share">
     
 
-                <a href=""><p> <i class="fab fa-facebook-f"></i> facebook </p></a>
-                <a href=""><p> <i class="fab fa-twitter"></i>     twitter </p></a>
-                <a href=""><p> <i class="fab fa-instagram"></i> instagram </p></a>
-                <a href=""><p> <i class="fab fa-pinterest"></i> pinterest</p></a>
-              
+    <h1 class="conh1" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+    contact</h1>
+    
+    <section class="contact" id="contact">
+       
 
+        <div class="box-cont" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+        <div class="co-container">
+            <div class="co-box">
+                <div class="form">
+                    <h3>have a question <span> contact us</span></h3>
+                    <form action="">
+                        
+                        <input type="text" name="" id="" placeholder="your name">
+                        <input type="email" name="" id="" placeholder="your email">
+                        <textarea name="message" id="message" placeholder="your message for us" cols="30" rows="10"></textarea>
+                        <a href="#" id="btn" class="btn"> See More</a>
 
+                        
+                    </form>
+                   
+                </div>
+
+                <div class="co-image">
+                    <img src="images/conbg.jpg" alt="">
+                </div>
             </div>
-        </div> -->
-
-        <div class="box">
-            <h3>contact</h3>
-            <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
-            <p> <i class="fas fa-phone"></i> +111-222-3333 </p>
-            <p> <i class="fas fa-envelope"></i> examples@gmail.com </p>
-            <p> <i class="fas fa-map"></i> mumbai, india - 400104 </p>
-          
         </div>
-
-        <div class="box">
-            <h3>newsletter</h3>
-            <p>subscribe for latest updates</p>
-            <form action="">
-                <input type="email" name="" class="email" placeholder="enter your email" id="">
-                <input type="submit"    value="subscribe" class="btn">
-            </form>
-        </div>
-
     </div>
-
-    <!-- <div id="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13221.92618312257!2d-96.8037768!3d32.7766642!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDQzJzEwLjgiTiA5NsKwMjUnMzQuNyJX!5e0!3m2!1sen!2sus!4v1648702751787!5m2!1sen!2sus" frameborder="0" allowfullscreen></iframe>
-      </div> -->
+    </section>
 
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script>
 
-</section>
-
-<div class="credit">All rights reserved!  created with ❤️ by <a href="">WEBSERV</a>  </div>
-
-<!-- footer section ends -->
-
-
-
-<!-- <section class="con">
-
+        let navlink = document.querySelector('.nav-link')
+        let bars= document.getElementById('bars');
+        let close= document.getElementById('close');
 
 
-</section> -->
+       bars.addEventListener('click',()=>{
+
+        navlink.classList.add('active');
 
 
+       }) 
+       
+       close.addEventListener('click',()=>{
+
+        navlink.classList.remove('active');
 
 
+       })
 
 
-
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
+    </script>    
 
 </body>
+
 </html>
